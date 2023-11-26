@@ -1,0 +1,12 @@
+export default function AboutPage() {
+    return (
+        <div className="min-h-screen flex items-center justify-center dark:bg-dark dark:text-white">
+            <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg">
+                <h2 className="text-2xl font-semibold text-gray-800 mb-6">About</h2>
+                <p>
+                    This is a sample project to demonstrate how to build a fullstack application using Next.js, Prisma and Tailwind CSS.
+                </p>
+            </div>
+        </div>
+    );
+}
